@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "db": "mongodb://db:db12345@ds127938.mlab.com:27938/doctorai_admin",
+  "jwt": {
+    "secret": "1234"
+  }
+}

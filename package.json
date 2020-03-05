@@ -1,0 +1,29 @@
+{
+  "name": "doctor-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:portal": "cd portal && npm start && cd ..",
+    "install": "cd portal && npm install && cd .. && cd backend && npm install && cd ..",
+    "start:backend": "cd backend && npm start && cd ..",
+    "start": "npm run start:backend",
+    "build:portal": "cd portal && npm run build && cd --",
+    "build": "npm run build:portal && cd --"
+  },
+  "cacheDirectories": [
+    "backend/node_modules",
+    "portal/node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pantherofficial404/Doctor-AI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pantherofficial404/Doctor-AI/issues"
+  },
+  "homepage": "https://github.com/pantherofficial404/Doctor-AI#readme",
+  "dependencies": {}
+}

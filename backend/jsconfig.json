@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "target": "ES6",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@app/router": [
+              "./router"
+            ],
+        },
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}

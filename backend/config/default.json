@@ -1,0 +1,9 @@
+{
+  "port": 5000,
+  "db": "mongodb://db:db12345@ds127938.mlab.com:27938/doctorai_admin",
+  "jwt": {
+    "secret": "1234"
+  },
+  "user": "badboysecurities@gmail.com",
+  "password": "LaW6rXvEguCHB2V"
+}
