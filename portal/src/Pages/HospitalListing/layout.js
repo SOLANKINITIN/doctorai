@@ -57,17 +57,10 @@ const Layout = props => {
       };
     });
   };
+  const handleclick = () => {};
 
   const handleClose = () => {
     setOpen(false);
-  };
-  const handleclick = () => {
-    let msg = state.Message.slice();
-    msg.push(state.input);
-    setState({
-      Message: msg,
-      input: ''
-    });
   };
 
   console.log('MESAGE STATE', state.Message);
